@@ -7,6 +7,10 @@ class methods :
         self.var1 = var1
         self.var2 = var2
 
+    """
+        opératons basiques
+    """
+
     def addition():
         var1 = int(input("Choissez votre 1ere valeur"))
         var2 = int(input("Choissez votre 2nde valeur"))
@@ -27,3 +31,14 @@ class methods :
         var2 = int(input("Choissez votre 2nde valeur"))
         result = (var1 * var2)
         print(f"voici votre résultat : {result}")
+
+    #à faire
+    """
+        opératons avancées
+    """
+
+
+    #à faire
+    """
+        formules
+    """
