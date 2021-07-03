@@ -1,4 +1,4 @@
-
+from math import *
 
 
 class methods :
@@ -7,9 +7,7 @@ class methods :
         self.var1 = var1
         self.var2 = var2
 
-    """
-        opératons basiques
-    """
+    #Calculs simples
 
     def addition():
         var1 = int(input("Choissez votre 1ere valeur"))
@@ -26,19 +24,19 @@ class methods :
         var2 = int(input("Choissez votre 2nde valeur"))
         result = (var1 / var2)
         print(f"voici votre résultat : {result}")
-    def multipcation():
-        var1 = int(input("Choissez votre 1ere valeur"))
+
+    #Calculs avancés
+
+    def puissances():
         var2 = int(input("Choissez votre 2nde valeur"))
-        result = (var1 * var2)
+        var1 = int(input("Choissez votre 1ere valeur"))
+        result = (var1 ** var2)
         print(f"voici votre résultat : {result}")
 
     #à faire
-    """
-        opératons avancées
-    """
-
-
-    #à faire
-    """
-        formules
-    """
+    def pytagore():
+        var2 = int(input("Choissez votre 2nde valeur"))
+        var1 = int(input("Choissez votre 1ere valeur"))
+        resprt1 = ((var1 ** var1) + (var2 ** var2))
+        resprt2 = math.sqrt(resprt1)
+        print(f"voici votre résultat : {resprt2}")
