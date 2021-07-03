@@ -1,4 +1,4 @@
-import Methods, ope_select
+import Methods
 
 
 
@@ -70,7 +70,7 @@ def opeselectmanager() :
         Votre réponse -- >   """))
 
             if OpAva == 1:
-                Methods.methods.addition()
+                Methods.methods.puissances()
             elif  OpAva == 2:
                 Methods.methods.soustraction()
             elif OpAva == 3:
@@ -91,8 +91,3 @@ def opeselectmanager() :
     |_________________________________________________________________________|
 
         Votre réponse -- >   """))
-
-            #if Form == 1:
-                #Methods.methods.pytagore()
-            elif  Form == 2:
-                LoopToken = 1
