@@ -91,8 +91,3 @@ def opeselectmanager() :
     |_________________________________________________________________________|
 
         Votre réponse -- >   """))
-
-            #if Form == 1:
-                #Methods.methods.pytagore()
-            if  Form == 2:
-                LoopToken = 1
