@@ -18,7 +18,7 @@ def opeselectmanager() :
     |                                                                         |
     |-1) Opérations simples                                                   |
     |-2) Opérations avancées                                                  |
-    |-3) Formules                                                             |
+    |-3) Formules (En COURS DE DEV)                                           |
     |_________________________________________________________________________|
 
         Votre réponse -- >   """))
@@ -92,7 +92,7 @@ def opeselectmanager() :
 
         Votre réponse -- >   """))
 
-            if Form == 1:
-                Methods.methods.pytagore()
+            #if Form == 1:
+                #Methods.methods.pytagore()
             elif  Form == 2:
                 LoopToken = 1
